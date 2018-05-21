@@ -2,4 +2,63 @@ body {
   font-family: Open Sans, sans-serif;
   color: #727272;
   background-color: #f1f1f1;
+  font-weight: lighter;
+  margin: 0;
 }
+
+h1 {
+  font-weight: lighter;
+  font-size: 23px;
+}
+
+.container {
+  background-color: white;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+}
+
+.header {
+  justify-content: center;
+  font-size: 80%;
+  margin-top: 0;
+  padding: 5px;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  width: 70%;
+  padding: 15px;
+}
+
+.listing {
+  flex: 10;
+  line-height: 22px;
+  letter-spacing: .3px;
+}
+
+.listing h2 {
+  font-weight: lighter;
+  font-size: 21px;
+  line-height: 5px;
+  padding-top: 7px;
+}
+
+.score-container {
+  flex: .75;
+}
+
+.score {
+  background-color: orange;
+  color: white;
+  width: 35%;
+  font-weight: lighter;
+  padding: 7px 10px 7px 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+
